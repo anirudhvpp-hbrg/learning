@@ -61,10 +61,23 @@ DECOMPOSE_TOOLS = [
 ]
 
 
+def _make_client() -> anthropic.Anthropic:
+    import os
+    # Prefer explicit API key; fall back to session ingress token (Claude Code remote)
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return anthropic.Anthropic()
+    session_token_path = "/home/claude/.claude/remote/.session_ingress_token"
+    if os.path.exists(session_token_path):
+        with open(session_token_path) as f:
+            token = f.read().strip()
+        return anthropic.Anthropic(auth_token=token)
+    return anthropic.Anthropic()  # will raise if no creds
+
+
 class Monarch:
     def __init__(self, fleet: Fleet, client: Optional[anthropic.Anthropic] = None):
         self.fleet = fleet
-        self.client = client or anthropic.Anthropic()
+        self.client = client or _make_client()
 
     async def run(self, task: str) -> dict:
         """
