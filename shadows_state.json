@@ -1,0 +1,150 @@
+{
+  "axiom_prime": {
+    "id": "axiom_prime",
+    "name": "Axiom Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "sentinel_prime": {
+    "id": "sentinel_prime",
+    "name": "Sentinel Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "thresher": {
+    "id": "thresher",
+    "name": "Thresher",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "strategist_prime": {
+    "id": "strategist_prime",
+    "name": "Strategist Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "genius_prime": {
+    "id": "genius_prime",
+    "name": "Genius Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "visionary_prime": {
+    "id": "visionary_prime",
+    "name": "Visionary Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "analyst_prime": {
+    "id": "analyst_prime",
+    "name": "Analyst Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 100,
+    "capabilities": {
+      "analysis": {
+        "task_class": "analysis",
+        "battle_records": [
+          {
+            "battle_id": "9ffc9366",
+            "shadow_id": "analyst_prime",
+            "stage_rank": "B",
+            "task_class": "analysis",
+            "timestamp": "2026-05-22T02:07:36.210797+00:00",
+            "what_worked": [],
+            "what_failed": [],
+            "surprises": [],
+            "heuristics": [],
+            "quality_score": 0.9000000000000001,
+            "boss_crystal_generated": "analyst_prime_analysis_v1",
+            "xp_awarded": 100,
+            "out_of_domain": false,
+            "branch_contribution": null,
+            "failure_flag": false
+          }
+        ],
+        "hit_count": 1,
+        "success_rate": 1.0
+      }
+    },
+    "boss_crystals": [
+      "analyst_prime_analysis_v1"
+    ],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "titan_prime": {
+    "id": "titan_prime",
+    "name": "Titan Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "steward_prime": {
+    "id": "steward_prime",
+    "name": "Steward Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "quill_prime": {
+    "id": "quill_prime",
+    "name": "Quill Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  },
+  "coach_prime": {
+    "id": "coach_prime",
+    "name": "Coach Prime",
+    "tier": "Knight",
+    "branch": null,
+    "xp": 0,
+    "capabilities": {},
+    "boss_crystals": [],
+    "rebirth_count": 0,
+    "xp_bonus_pct": 0.0
+  }
+}
